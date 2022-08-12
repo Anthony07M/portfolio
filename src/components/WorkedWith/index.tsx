@@ -15,7 +15,10 @@ export const WorkedWith = ({ works }: WorledWithProps) => {
     const id = useId()
 
     return (
-        <Container>
+        <Container
+            data-aos="flip-up"
+            data-aos-duration="1300"
+        >
             <p>Worked with</p>
             <ul>
                 {works.map((work) => <Work key={id}>{work.name}</Work>)}

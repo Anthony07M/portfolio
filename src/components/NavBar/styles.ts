@@ -23,6 +23,10 @@ export const Container = styled.nav`
         line-height: 18px;
     }
 
+    a:hover {
+        color: #3F8E00;
+    }
+
     .networks {
         width: 107px;
         display: flex;

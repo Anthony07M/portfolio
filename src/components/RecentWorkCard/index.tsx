@@ -9,12 +9,18 @@ interface RecentWorkCardProps {
 
 export const RecentWorkCard = ({ name, description, imgUrl }: RecentWorkCardProps) => {
     return (
-        <Container>
+        <Container
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+        >
             <img src={imgUrl} alt={name} />
             <div className="details">
                 <h3>{name}</h3>
                 <p>{description}</p>
-                <button>Know More <MdKeyboardArrowRight /></button>
+                <button
+                    data-aos="flip-up"
+                    data-aos-duration="1100"
+                >Know More <MdKeyboardArrowRight /></button>
             </div>
         </Container>
     );

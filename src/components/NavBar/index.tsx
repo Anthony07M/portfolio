@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { Container } from "./styles";
 import { GrLinkedinOption } from 'react-icons/gr'
 import { RiInstagramFill } from 'react-icons/ri'
@@ -6,7 +5,10 @@ import { BsTwitter } from 'react-icons/bs'
 
 export const NavBar = () => {
     return (
-        <Container>
+        <Container
+            data-aos="fade-down"
+            data-aos-duration="2000"
+        >
             <a href="/#home">Home</a>
             <a href="/#case_studies">Case Studies</a>
             <a href="/#testimonials">Testimonials</a>

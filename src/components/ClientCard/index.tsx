@@ -8,7 +8,10 @@ interface ClientCardProps {
 
 export const ClientCard = ({ name, imgUrl, comment }: ClientCardProps) => {
     return (
-        <Container>
+        <Container 
+             data-aos="zoom-in"
+            data-aos-duration='1500'
+        >
             <p className="comment">{comment}</p>
             <div>
                 <img src={imgUrl} alt={name} />
