@@ -28,6 +28,13 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'Heebo';
     }
     
+    main {
+        display: none;
+        @media (min-width: 750px) {
+            display: initial;
+        }
+    }
+
     button:hover{
         cursor: pointer;
     }

@@ -28,5 +28,6 @@ export const Container = styled.div<ContainerProps>`
         line-height: 24px;
         width: 570px;
         margin-bottom: 60px;
+        text-align: center;
     }
 `

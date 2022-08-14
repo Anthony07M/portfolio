@@ -14,5 +14,5 @@ export const Container = styled.footer`
     font-size: 14px;
     line-height: 18px;
     color: var(--grey);
-    margin-top: 80px;
+    margin-top: 50px;
 `

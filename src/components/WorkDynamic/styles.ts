@@ -26,6 +26,7 @@ export const Container = styled.div<WorkDynamicPropsColor>`
         span {
             color: ${({ variant }) =>  variant === 'yellow' ? 'var(--yellow)': variant === 'green'? 'var(--green)': 'var(--blue)'};
             padding: 5px;
+            text-align: center;
             width: 82px;
             border-radius: 15px;
             font-family: 'IBM Plex Mono';
@@ -35,6 +36,7 @@ export const Container = styled.div<WorkDynamicPropsColor>`
             line-height: 24px;
             background: ${({variant}) => variant === 'yellow' ? '#FFF6E9': variant === 'green' ? '#E0FFF8': '#D0E6FF'} ;
             border: 60px;
+            margin-bottom: 20px;
         }
 
         h3 {
@@ -77,5 +79,10 @@ export const Container = styled.div<WorkDynamicPropsColor>`
             width: 100%;
             height: 100%;
         }
+    }
+
+    @media (min-width: 1400px) { 
+        width: 1020px;
+        height: 350px;
     }
 `;

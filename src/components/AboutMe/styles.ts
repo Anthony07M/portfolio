@@ -57,5 +57,33 @@ export const Container = styled.div`
             height: 100%;
             border-radius: 50%;
         }
+
+    }
+
+    @media (min-width: 1400px) {
+        & {
+            justify-content: space-around;
+            margin-top: 7rem;
+
+            .content-img {
+                width: 450px;
+                height: 450px;
+            }
+
+            .content-information {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                height: 350px;
+
+                p {
+                    font-size: 16px;
+                }
+
+                h1 {
+                    font-size: 55px;
+                }
+            }
+        }
     }
 `;

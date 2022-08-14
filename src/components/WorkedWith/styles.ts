@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
     margin-top: 40px;
     color: var(--white);
-    padding-left: 9rem;
+    padding-left: 10rem;
 
     ul {
         display: flex;
@@ -16,6 +16,11 @@ export const Container = styled.div`
         font-size: 14px;
         line-height: 18px;
         margin-bottom: 20px;
+    }
+
+    @media (min-width: 1400px) { 
+        margin-top: 8rem;
+        padding-left: 14rem;
     }
     `
 

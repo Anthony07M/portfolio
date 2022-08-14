@@ -22,10 +22,14 @@ export const Container = styled.form`
         font-size: 14px;
         line-height: 18px;
         color: var(--white);
-        
         svg {
             font-size: 1.20rem;
         }
+    }
+
+    @media (min-width: 1400px) {
+        margin-bottom: 5rem;
+
     }
 
 `

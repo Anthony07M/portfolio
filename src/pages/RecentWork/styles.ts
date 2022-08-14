@@ -13,4 +13,12 @@ export const Container = styled.section`
         gap: 30px;
         margin-bottom: 79px;
     }
+
+
+    @media (min-width: 1400px) {
+        .content{
+            width: 70%;
+            height: 100vh;
+        }
+    }
 `;
