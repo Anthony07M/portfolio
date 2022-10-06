@@ -72,6 +72,7 @@ export const ContentInput = styled.div`
         background: #F8F8F8;
         border: 1px solid #D8D8D8;
         border-radius: 4px;
+        caret-color: #3F8E00;
     }
 
     textarea{
