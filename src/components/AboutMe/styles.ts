@@ -51,6 +51,9 @@ export const Container = styled.div`
     .content-img {
         width: 350px;
         height: 350px;
+        border-radius: 50%;
+        padding: 4px;
+        border: 2px solid var(--grey);
 
         img {
             width: 100%;
