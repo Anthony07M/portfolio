@@ -1,6 +1,7 @@
 import { AboutMe } from "../../components/AboutMe";
 import { NavBar } from "../../components/NavBar";
 import { WorkedWith } from "../../components/WorkedWith";
+import { workedWith } from "../../utils";
 import { Container } from "./styles";
 
 export const Home = () => {
@@ -13,7 +14,7 @@ export const Home = () => {
                 avatarUrl="https://github.com/anthony07m.png"
             />
             <WorkedWith
-                works={[{ name: 'Eunerd'}, { name: 'Eunerd'}, { name: 'Eunerd'}, { name: 'Eunerd'}, { name: 'Eunerd'}]}
+                works={workedWith}
             />
         </Container>
     );

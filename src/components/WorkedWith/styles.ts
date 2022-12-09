@@ -36,4 +36,5 @@ export const Work = styled.li`
     border: 1px solid var(--grey);
     border-radius: 10px;
     margin-right: 30px;
+    padding: 0 10px;
 `
