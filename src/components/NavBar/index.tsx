@@ -1,7 +1,6 @@
 import { Container } from "./styles";
-import { GrLinkedinOption } from 'react-icons/gr'
+import { GrLinkedinOption, GrGithub } from 'react-icons/gr'
 import { RiInstagramFill } from 'react-icons/ri'
-import { BsTwitter } from 'react-icons/bs'
 
 export const NavBar = () => {
     return (
@@ -15,9 +14,9 @@ export const NavBar = () => {
             <a href="/#recent_work">Recent work</a>
             <a href="/#get_in_touch">Get In Touch</a>
             <div className="networks">
-                <GrLinkedinOption />
-                <RiInstagramFill />
-                <BsTwitter />
+                <GrLinkedinOption onClick={() => window.open('https://linkedin.com/in/anthony07m')}/>
+                <RiInstagramFill onClick={() => window.open('https://www.instagram.com/anthonyfreitas94/')}/>
+                <GrGithub onClick={() => window.open('https://github.com/Anthony07M')}/>
             </div>
         </Container>
     );

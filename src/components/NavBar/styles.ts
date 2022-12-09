@@ -14,6 +14,16 @@ export const Container = styled.nav`
     svg, a {
         color: var(--grey);
     }
+    svg:nth-child(1):hover{
+        color: #0e76a8;
+    }
+    svg:nth-child(2):hover{
+        color: #bc2a8d;
+        opacity: 0.7;
+    }
+    svg:nth-child(3):hover{
+        color: #fafafa;
+    }
     
     a {
         font-family: 'IBM Plex Mono';
