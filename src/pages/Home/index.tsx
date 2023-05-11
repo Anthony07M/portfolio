@@ -10,7 +10,7 @@ export const Home = () => {
             <NavBar />
             <AboutMe
                 name="Anthony Freitas"
-                description="Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+                description="Seja bem-vindo ao meu portfólio, um espaço onde a criatividade e a dedicação se encontram para contar histórias e exibir minha jornada profissional. Sou apaixonado por desafios e movido pela busca constante de crescimento pessoal e profissional. "
                 avatarUrl="https://github.com/anthony07m.png"
             />
             <WorkedWith
