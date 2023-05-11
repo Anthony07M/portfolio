@@ -8,7 +8,7 @@ export const GetInTouch = () => {
         <Container id="get_in_touch">
             <Title
                 title="Get In Touch"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+                description="Vamos compartilhar ideias, trocar conhecimentos e encontrar maneiras de trabalhar juntos. Aguardo com entusiasmo sua mensagem e a possibilidade de iniciar uma jornada colaborativa."
             />
             <Form/>
             <Footer/>

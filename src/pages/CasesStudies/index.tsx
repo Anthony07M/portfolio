@@ -12,7 +12,7 @@ export const CasesStudies = () => {
         <Container id="case_studies">
             <Title
                 title="Case Studies"
-                description="Solving user business problems since last 15+ years.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                description="Bem-vindo à seção de casos de estudo do meu portfólio, onde você encontrará projetos que ilustram minha paixão por soluções criativas e resultados impactantes. Um mergulho profundo em desafios enfrentados, estratégias aplicadas e os resultados alcançados."
                 variant="black"
             />
             <WorkDynamic

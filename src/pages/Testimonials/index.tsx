@@ -9,7 +9,7 @@ export const Testimonials = () => {
         <Container id="testimonials">
             <Title
                 title="Testimonials"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                description="Nesta seção de testemunhos, você encontrará depoimentos sinceros de pessoas com quem tive o prazer de trabalhar. São vozes autênticas que compartilham suas experiências e feedbacks sobre nossa colaboração. Cada palavra é um lembrete gratificante do impacto positivo que buscamos alcançar juntos."
             />
             <div className="content">
                 <ClientCard

@@ -11,7 +11,7 @@ export const RecentWork = () => {
         <Container id="recent_work">
             <Title
                 title="Recent Work"
-                description="Solving user  business problems since last 15 years. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua "
+                description="Nesta seção de trabalhos recentes, você terá um vislumbre dos projetos mais recentes nos quais estive envolvido. Aqui, você encontrará exemplos frescos de minha abordagem criativa, estratégias inovadoras e resultados de qualidade. Cada projeto é uma oportunidade de superar expectativas e demonstrar meu compromisso com a excelência."
                 variant='black'
             />
             <div className="content">
