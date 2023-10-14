@@ -37,4 +37,5 @@ export const Work = styled.li`
     border-radius: 10px;
     margin-right: 30px;
     padding: 0 10px;
+    gap: 0.75rem;
 `

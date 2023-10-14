@@ -1,9 +1,11 @@
+import { IconType } from "react-icons";
 import { Container, Work } from "./styles";
 import { useId } from 'react'
 
 type WorkType = {
     name: string,
     logoUrl?: string,
+    Icon: IconType
 }
 
 interface WorledWithProps {
@@ -13,7 +15,7 @@ interface WorledWithProps {
 export const WorkedWith = ({ works }: WorledWithProps) => {
 
     const id = useId()
-
+    
     return (
         <Container
             data-aos="flip-up"
@@ -21,7 +23,7 @@ export const WorkedWith = ({ works }: WorledWithProps) => {
         >
             <p>Worked with</p>
             <ul>
-                {works.map((work) => <Work key={id}>{work.name}</Work>)}
+                {works.map(({ name, Icon }) => <Work key={id}> <Icon/>{name}</Work>)}
             </ul>
         </Container>
     );
